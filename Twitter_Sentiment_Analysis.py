@@ -1,11 +1,11 @@
 import tweepy #to access twitter API
 from textblob import TextBlob
 
-consumer_key = 'Ho09Wf2ZI88dGhQFx7h1ihtCz'
-consumer_secret = 'P6cMA7maIX8SsCzLCMCJm5VokTf03fHDSPHF0MeflkJ1yYLhIP'
+consumer_key = 'your_consumer_key'
+consumer_secret = 'your_consumer_secret'
 
-access_token = '24318160-CgTQDOLMFQ1MUfLUMPym6qAdYuOIwxW4EV9csFa2L'
-access_token_secret = '4Azfm6cTocMQCUFepwgBnDEtJBP5uy8aQYYO0Xm2uG4KX'
+access_token = 'your_access_token'
+access_token_secret = 'your_token_secret'
 
 #Authentication, logging in via code
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
